@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the pom.xml and download dependencies (this helps in leveraging Docker cache)
 COPY pom.xml .
 
-# Download all dependencies (to avoid re-downloading every time code changes)
+# Download all dependencies (to avoid re-downloading every time code changes.)
 RUN mvn dependency:go-offline
 
 # Copy the source code to the container
