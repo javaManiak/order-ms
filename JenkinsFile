@@ -4,7 +4,7 @@ pipeline {
         DOCKER_IMAGE = "bennma2000/orderms"
         KUBE_CONFIG = "/home/ubuntu/.kube/config"
         AWS_REGION = "us-east-1"
-        EKS_CLUSTER_NAME = "order-cluster2"
+        EKS_CLUSTER_NAME = "order2-cluster"
 
     }
     stages {
